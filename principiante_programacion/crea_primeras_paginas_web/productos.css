@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .productos{
     width: 940px;
     margin: 0 auto;
@@ -44,6 +49,7 @@ nav a{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px #000000 solid;
+    border-radius: 10px;
 }
 
 
