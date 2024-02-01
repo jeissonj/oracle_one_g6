@@ -28,6 +28,23 @@
                 <input type="text" id="correoelectronico">
                 <label for="telefono">Telefono</label>
                 <input type="text" id="telefono">
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+                <div>
+                    <p>¿Cómo le gustaría que lo contactemos?</p>
+                    <label for="redio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email </label>
+                    <label for="redio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Télefono </label>
+                    <label for="redio-whatsaap"><input type="radio" name="contacto" value="whatsaap" id="radio-whatsaap">Whatsapp </label>
+                </div>
+                <div>
+                    <p>¿En cual horario prefiere ser atendido?</p>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>
+                <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>      
                 <input type="submit" value="enviar formulario">
             </form>
         </main>
