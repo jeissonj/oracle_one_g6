@@ -48,7 +48,7 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px #000000 solid;
+    border: 2px solid #000000;
     border-radius: 10px;
 }
 
@@ -68,7 +68,6 @@ nav a:hover{
 .productos li:hover h2{
     font-size: 33px;
 }
-
 
 .producto-descripcion{
     font-size: 18px;
@@ -107,8 +106,6 @@ form label, form legend{
     margin: 0 0 10px;
 }
 
-
-
 .input-padron{
     display: block;
     margin: 0 0 20px;
@@ -117,7 +114,7 @@ form label, form legend{
 }
 
 .checkbox{
-    margin: 20px 0; 
+    margin:20px 0; 
 }
 
 .enviar{
@@ -138,17 +135,17 @@ form label, form legend{
     transform: scale(1.2);
 }
 
-table {
+table{
     margin: 40px 40px;
 }
 
-thead {
+thead{
     background: #555555;
-    color: white;
+    color:white;
     font-weight: bold;
 }
 
-td, th {
+td,th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
